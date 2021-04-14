@@ -10,7 +10,7 @@ ctx.fillStyle = '#111';
 ctx.fillRect( 0, 0, w, h );
 
 ctx.font = '60px Verdana';
-var text = '',
+var text = ' ',
     len = ctx.measureText( text ).width;
 
 function anim(){
